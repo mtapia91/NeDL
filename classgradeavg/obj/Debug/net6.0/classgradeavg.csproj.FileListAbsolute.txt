@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\bin\Debug\net6.0\classgradeavg.exe
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\bin\Debug\net6.0\classgradeavg.deps.json
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\bin\Debug\net6.0\classgradeavg.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\bin\Debug\net6.0\classgradeavg.dll
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\bin\Debug\net6.0\ref\classgradeavg.dll
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\bin\Debug\net6.0\classgradeavg.pdb
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\classgradeavg.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\classgradeavg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\classgradeavg.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\classgradeavg.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\classgradeavg.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\classgradeavg.dll
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\ref\classgradeavg.dll
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\classgradeavg.pdb
+C:\Users\MTapia\Desktop\NeDL\classgradeavg\obj\Debug\net6.0\classgradeavg.genruntimeconfig.cache

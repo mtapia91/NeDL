@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\bin\Debug\net6.0\WhichIsGreater.exe
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\bin\Debug\net6.0\WhichIsGreater.deps.json
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\bin\Debug\net6.0\WhichIsGreater.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\bin\Debug\net6.0\WhichIsGreater.dll
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\bin\Debug\net6.0\ref\WhichIsGreater.dll
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\bin\Debug\net6.0\WhichIsGreater.pdb
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\WhichIsGreater.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\WhichIsGreater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\WhichIsGreater.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\WhichIsGreater.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\WhichIsGreater.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\WhichIsGreater.dll
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\ref\WhichIsGreater.dll
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\WhichIsGreater.pdb
+C:\Users\MTapia\Desktop\NeDL\WhichIsGreater\obj\Debug\net6.0\WhichIsGreater.genruntimeconfig.cache

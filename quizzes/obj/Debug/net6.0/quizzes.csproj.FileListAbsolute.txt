@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\quizzes\bin\Debug\net6.0\quizzes.exe
+C:\Users\MTapia\Desktop\NeDL\quizzes\bin\Debug\net6.0\quizzes.deps.json
+C:\Users\MTapia\Desktop\NeDL\quizzes\bin\Debug\net6.0\quizzes.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\quizzes\bin\Debug\net6.0\quizzes.dll
+C:\Users\MTapia\Desktop\NeDL\quizzes\bin\Debug\net6.0\ref\quizzes.dll
+C:\Users\MTapia\Desktop\NeDL\quizzes\bin\Debug\net6.0\quizzes.pdb
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\quizzes.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\quizzes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\quizzes.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\quizzes.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\quizzes.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\quizzes.dll
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\ref\quizzes.dll
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\quizzes.pdb
+C:\Users\MTapia\Desktop\NeDL\quizzes\obj\Debug\net6.0\quizzes.genruntimeconfig.cache

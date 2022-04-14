@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\TwoSum\bin\Debug\net6.0\TwoSumKattisProblem.exe
+C:\Users\MTapia\Desktop\NeDL\TwoSum\bin\Debug\net6.0\TwoSumKattisProblem.deps.json
+C:\Users\MTapia\Desktop\NeDL\TwoSum\bin\Debug\net6.0\TwoSumKattisProblem.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\TwoSum\bin\Debug\net6.0\TwoSumKattisProblem.dll
+C:\Users\MTapia\Desktop\NeDL\TwoSum\bin\Debug\net6.0\ref\TwoSumKattisProblem.dll
+C:\Users\MTapia\Desktop\NeDL\TwoSum\bin\Debug\net6.0\TwoSumKattisProblem.pdb
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\TwoSumKattisProblem.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\TwoSumKattisProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\TwoSumKattisProblem.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\TwoSumKattisProblem.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\TwoSumKattisProblem.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\TwoSumKattisProblem.dll
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\ref\TwoSumKattisProblem.dll
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\TwoSumKattisProblem.pdb
+C:\Users\MTapia\Desktop\NeDL\TwoSum\obj\Debug\net6.0\TwoSumKattisProblem.genruntimeconfig.cache

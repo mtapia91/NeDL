@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\basepower2\bin\Debug\net6.0\basepower2.exe
+C:\Users\MTapia\Desktop\NeDL\basepower2\bin\Debug\net6.0\basepower2.deps.json
+C:\Users\MTapia\Desktop\NeDL\basepower2\bin\Debug\net6.0\basepower2.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\basepower2\bin\Debug\net6.0\basepower2.dll
+C:\Users\MTapia\Desktop\NeDL\basepower2\bin\Debug\net6.0\ref\basepower2.dll
+C:\Users\MTapia\Desktop\NeDL\basepower2\bin\Debug\net6.0\basepower2.pdb
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\basepower2.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\basepower2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\basepower2.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\basepower2.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\basepower2.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\basepower2.dll
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\ref\basepower2.dll
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\basepower2.pdb
+C:\Users\MTapia\Desktop\NeDL\basepower2\obj\Debug\net6.0\basepower2.genruntimeconfig.cache
