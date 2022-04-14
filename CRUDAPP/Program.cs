@@ -9,7 +9,7 @@ namespace HelloWorld
     //  Declare variables
     bool userChoice;
     string userChoiceString;
-    string[] nameArray = new String[11];
+    string[] nameArray = new String[10];
         do
         {
             //  TODO: Get a valid input
@@ -53,15 +53,17 @@ namespace HelloWorld
             {
                 int index = 0;  //index for my array
                 using (StreamReader sr = File.OpenText("names.txt"))
-            {
-                string s = "";
-				Console.WriteLine(" Here is the content of the file names.txt : ");
+                {
+                    string s = "";
+                    Console.WriteLine(" Here is the content of the file names.txt : ");
                     while ((s = sr.ReadLine()) != null)
-                    {
-                        Console.WriteLine(s);
-                    }
-                    Console.WriteLine("");
-            }
+                        {
+                            Console.WriteLine(s);
+                            nameArray[index] = s;
+                            index++;
+                        }
+                        Console.WriteLine("");
+                }
             }
 
             //  TODO: Else if the option is an S or s then store the array of strings into the text file
@@ -71,8 +73,8 @@ namespace HelloWorld
                 using (StreamReader sr = File.OpenText("names.txt"))
                 {
                 
-                string s = "";
-                int index = 0;
+                    string s = "";
+                    int index = 0;
                     while ((s = sr.ReadLine()) != null)
                     {
                         nameArray[index]= s;
@@ -93,42 +95,23 @@ namespace HelloWorld
                 //indexto addit to the array
                 for (index = 0; index <10; index++)
                 {
-                    if((NameArray[index])) == "") && found == false)
+                    if(((nameArray[index]) == "") && (found == false))  //if a blank spot is found
                     {
-                        nameArray[index] = newName;
-                        found = true;
+                        nameArray[index] = newName; //adding name at blank spot found
+                        found = true; 
 
-                        Console.WriteLine(nameArray[index]));
+                        Console.WriteLine(nameArray[index]);
                     }
                 }
 
-                // This text is always added, making the file longer over time
-                // if it is not deleted.
-                using (StreamWriter sw = File.AppendText(path))
-                {
-                    sw.WriteLine("This");
-                    sw.WriteLine("is Extra");
-                    sw.WriteLine("Text");
-                }	
-
-                // Open the file to read from.
-                using (StreamReader sr = File.OpenText(path))
-                {
-                    string s = "";
-                    while ((s = sr.ReadLine()) != null)
-                    {
-                        Console.WriteLine(s);
-                    }
-                }
-
-
+               
             }
 
             //  TODO: Else if the option is an R or r then read a name from the array (if it's there)
 
             else if (userChoiceString=="R" || userChoiceString=="r")
             {
-                for (int index = 0; index < 11; index++)
+                for (int index = 0; index < 10; index++)
                 {
                     Console.WriteLine(nameArray[index]);
                 }
