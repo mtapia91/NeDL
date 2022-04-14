@@ -65,7 +65,7 @@ namespace HelloWorld
                         Console.WriteLine("");
                 }
             }
-
+// some weird comment
             //  TODO: Else if the option is an S or s then store the array of strings into the text file
 
             else if (userChoiceString=="S" || userChoiceString=="s")
