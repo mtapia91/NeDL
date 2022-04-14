@@ -66,6 +66,7 @@ namespace HelloWorld
                 }
             }
 // some weird comment
+//test test test test 
             //  TODO: Else if the option is an S or s then store the array of strings into the text file
 
             else if (userChoiceString=="S" || userChoiceString=="s")
