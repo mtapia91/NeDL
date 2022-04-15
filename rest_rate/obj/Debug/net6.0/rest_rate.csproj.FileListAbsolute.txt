@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\rest_rate\bin\Debug\net6.0\rest_rate.exe
+C:\Users\MTapia\Desktop\NeDL\rest_rate\bin\Debug\net6.0\rest_rate.deps.json
+C:\Users\MTapia\Desktop\NeDL\rest_rate\bin\Debug\net6.0\rest_rate.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\rest_rate\bin\Debug\net6.0\rest_rate.dll
+C:\Users\MTapia\Desktop\NeDL\rest_rate\bin\Debug\net6.0\ref\rest_rate.dll
+C:\Users\MTapia\Desktop\NeDL\rest_rate\bin\Debug\net6.0\rest_rate.pdb
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\rest_rate.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\rest_rate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\rest_rate.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\rest_rate.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\rest_rate.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\rest_rate.dll
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\ref\rest_rate.dll
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\rest_rate.pdb
+C:\Users\MTapia\Desktop\NeDL\rest_rate\obj\Debug\net6.0\rest_rate.genruntimeconfig.cache
