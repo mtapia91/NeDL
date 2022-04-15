@@ -20,7 +20,7 @@ namespace HelloWorld
 
                 //  TODO: Provide the user a menu of options
 
-                Console.WriteLine("What's your deal? ");
+                Console.WriteLine("Choose your poison: ");
                 Console.WriteLine("L: Load the data file into an array. ");
                 Console.WriteLine("S: Store the array to your data file. ");
                 Console.WriteLine("C: Add a name to the array. ");
@@ -71,16 +71,27 @@ namespace HelloWorld
 
             else if (userChoiceString=="S" || userChoiceString=="s")
             {
+                 if (File.Exists("names.txt"))
+                {
+                    File.Delete("names.txt");
+                }
+                Console.Write("Changes to your array have been updated to your text file. ");
+                
+                using (StreamWriter fileStr = File.CreateText("names.txt"))
+                {              
+                    int index = 0;
+                    fileStr.WriteLine(nameArray[index]);
+                       
+                }
                 using (StreamReader sr = File.OpenText("names.txt"))
                 {
-                
                     string s = "";
                     int index = 0;
                     while ((s = sr.ReadLine()) != null)
-                    {
-                        nameArray[index]= s;
-                        index++;
-                    }
+                        {
+                            nameArray[index]= s;
+                            index++;
+                        }
                 }             
             }
             
