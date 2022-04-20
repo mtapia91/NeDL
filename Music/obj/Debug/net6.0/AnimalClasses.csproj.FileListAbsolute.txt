@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\bin\Debug\net6.0\AnimalClasses.exe
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\bin\Debug\net6.0\AnimalClasses.deps.json
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\bin\Debug\net6.0\AnimalClasses.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\bin\Debug\net6.0\AnimalClasses.dll
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\bin\Debug\net6.0\ref\AnimalClasses.dll
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\bin\Debug\net6.0\AnimalClasses.pdb
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\AnimalClasses.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\AnimalClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\AnimalClasses.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\AnimalClasses.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\AnimalClasses.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\AnimalClasses.dll
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\ref\AnimalClasses.dll
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\AnimalClasses.pdb
+C:\Users\MTapia\Desktop\NeDL\AnimalClasses\obj\Debug\net6.0\AnimalClasses.genruntimeconfig.cache

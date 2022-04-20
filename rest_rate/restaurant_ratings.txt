@@ -1,6 +1,32 @@
-wendys 
-3 
-famous daves 
+wendys
+4
+canes
+3
+taco bell
+3
+outback
+4
+chilis
+4
+jack
+3
+bk
+1
+culvers
+5
+mcdonalds
+2
+mi tierra
 4
 the venue
+5
+mings
 4
+virginias
+4
+leadbellys
+4
+cultiva
+5
+zesto
+5

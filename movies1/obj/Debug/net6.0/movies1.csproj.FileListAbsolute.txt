@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\movies1\bin\Debug\net6.0\movies1.exe
+C:\Users\MTapia\Desktop\NeDL\movies1\bin\Debug\net6.0\movies1.deps.json
+C:\Users\MTapia\Desktop\NeDL\movies1\bin\Debug\net6.0\movies1.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\movies1\bin\Debug\net6.0\movies1.dll
+C:\Users\MTapia\Desktop\NeDL\movies1\bin\Debug\net6.0\ref\movies1.dll
+C:\Users\MTapia\Desktop\NeDL\movies1\bin\Debug\net6.0\movies1.pdb
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\movies1.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\movies1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\movies1.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\movies1.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\movies1.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\movies1.dll
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\ref\movies1.dll
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\movies1.pdb
+C:\Users\MTapia\Desktop\NeDL\movies1\obj\Debug\net6.0\movies1.genruntimeconfig.cache
