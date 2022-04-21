@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\comp345\bin\Debug\net6.0\comp345.exe
+C:\Users\MTapia\Desktop\NeDL\comp345\bin\Debug\net6.0\comp345.deps.json
+C:\Users\MTapia\Desktop\NeDL\comp345\bin\Debug\net6.0\comp345.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\comp345\bin\Debug\net6.0\comp345.dll
+C:\Users\MTapia\Desktop\NeDL\comp345\bin\Debug\net6.0\ref\comp345.dll
+C:\Users\MTapia\Desktop\NeDL\comp345\bin\Debug\net6.0\comp345.pdb
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\comp345.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\comp345.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\comp345.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\comp345.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\comp345.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\comp345.dll
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\ref\comp345.dll
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\comp345.pdb
+C:\Users\MTapia\Desktop\NeDL\comp345\obj\Debug\net6.0\comp345.genruntimeconfig.cache

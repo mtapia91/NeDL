@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MTapia\\Desktop\\NeDL\\comp3.4.5\\comp3.4.5.csproj": {}
+    "C:\\Users\\MTapia\\Desktop\\NeDL\\comp345\\comp345.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MTapia\\Desktop\\NeDL\\comp3.4.5\\comp3.4.5.csproj": {
+    "C:\\Users\\MTapia\\Desktop\\NeDL\\comp345\\comp345.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MTapia\\Desktop\\NeDL\\comp3.4.5\\comp3.4.5.csproj",
-        "projectName": "comp3.4.5",
-        "projectPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\comp3.4.5\\comp3.4.5.csproj",
+        "projectUniqueName": "C:\\Users\\MTapia\\Desktop\\NeDL\\comp345\\comp345.csproj",
+        "projectName": "comp345",
+        "projectPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\comp345\\comp345.csproj",
         "packagesPath": "C:\\Users\\MTapia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\comp3.4.5\\obj\\",
+        "outputPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\comp345\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MTapia\\AppData\\Roaming\\NuGet\\NuGet.Config",
