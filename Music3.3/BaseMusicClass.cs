@@ -1,12 +1,12 @@
-using System;
+﻿using System;
 
 namespace Music
 {
             //Four pieces of data for each obj from txt file
             //Artist, Song Title, Run Time, Album
-    class Music
+    public class Music
     {
-        string artist = "";
+        string name {get; set;}
         string song {get; set;}
         double time {get; set;}
         string album {get; set;}
@@ -26,3 +26,4 @@ namespace Music
 
     }
 }
+
