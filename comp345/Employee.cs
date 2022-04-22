@@ -1,37 +1,52 @@
-﻿using System;
-
-namespace comp345
+﻿namespace comp345
 {
     public class Employee
     {
-        string lname;
-        string fname;
-        char emptype;
+        private string firstName;
+        private string lastName;
+        private string employeeType;  //change to string 
 
-    public Employee (string lname, string fname, char emptype) //Constructor of the class
+    
+    public Employee (string newFirstName, string newLastName, string newEmployeeType) //Constructor of the class
     {
-        this.lname = lname;
-        this.fname = fname;
-        this.emptype = emptype;
+        firstName = newFirstName;
+        lastName = newLastName;
+        employeeType = newEmployeeType;
     }
-    public String GetLName() //prop 1
+    
+    public String getFirstName() //prop 1 get:set
     {
-        return lname;
+        return firstName;
+    }
+    public void setFirstName (string newFirstName)
+    {
+        firstName = newFirstName;
     }
 
-    public String GetFName() //prop 2
+
+    public String getLastName() //prop 2 get:set
     {
-        return fname;
+        return lastName;
+    }
+    public void setLastName (string newLastName)
+    {
+        lastName = newLastName;
     }
 
-    public char GetEmpType() //prop 3
+
+    public string getEmployeeType() //prop 3 get:set
     {
-        return emptype;
+        return employeeType;
     }
+    public void setEmployeeType (string newEmployeeType)
+    {
+        employeeType = newEmployeeType;
+    }
+
 
     public override String ToString() //override ToString so an obj can be printed out with writeline
     {
-        return (this.GetLName() + ", " + this.GetFName() + " is paid " + this.GetEmpType() + ".");
+        return (firstName +" "+ lastName + " is paid a/an " + employeeType + " rate of");
     }
     }
 }
