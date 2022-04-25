@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MTapia\\Desktop\\NeDL\\CRUDAPP\\CRUDAPP.csproj",
+      "projectUniqueName": "C:\\Users\\MTapia\\Desktop\\NeDL\\Comp2.5\\CRUDAPP.csproj",
       "projectName": "CRUDAPP",
-      "projectPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\CRUDAPP\\CRUDAPP.csproj",
+      "projectPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Comp2.5\\CRUDAPP.csproj",
       "packagesPath": "C:\\Users\\MTapia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\CRUDAPP\\obj\\",
+      "outputPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Comp2.5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MTapia\\AppData\\Roaming\\NuGet\\NuGet.Config",

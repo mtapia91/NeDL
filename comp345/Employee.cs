@@ -4,10 +4,9 @@
     {
         private string firstName;
         private string lastName;
-        private string employeeType;  //change to string 
+        private char employeeType; //must remain a Char type 
 
-    
-    public Employee (string newFirstName, string newLastName, string newEmployeeType) //Constructor of the class
+    public Employee (string newFirstName, string newLastName, char newEmployeeType) //Constructor of the class
     {
         firstName = newFirstName;
         lastName = newLastName;
@@ -34,11 +33,11 @@
     }
 
 
-    public string getEmployeeType() //prop 3 get:set
+    public char getEmployeeType() //prop 3 get:setEmployeeType
     {
         return employeeType;
     }
-    public void setEmployeeType (string newEmployeeType)
+    public void setEmployeeType (char newEmployeeType)
     {
         employeeType = newEmployeeType;
     }

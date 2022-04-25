@@ -7,7 +7,7 @@ namespace comp345
 
     private double salaryRate;
 
-    public SalaryEmployee (string newFirstName, string newLastName, string newEmployeeType, double newSalaryRate) : base (newFirstName, newLastName, newEmployeeType)//constructor for class
+    public SalaryEmployee (string newFirstName, string newLastName, char newEmployeeType, double newSalaryRate) : base (newFirstName, newLastName, newEmployeeType)//constructor for class
     {
         salaryRate = newSalaryRate; 
     }
@@ -21,7 +21,7 @@ namespace comp345
     }
     public override string ToString() 
     {
-        return (salaryRate + ". \nSo, their bonus will be: $" + (salaryRate * .1));
+        return (salaryRate + ". \nMaking their bonus: $" + (salaryRate * .1));
     }
 
     }
