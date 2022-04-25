@@ -22,7 +22,7 @@ namespace comp345
     }
     public override string ToString()
     {
-        return (hourlyRate + " \nMaking their bonus: $" + (hourlyRate * 80));
+        return ("Hourly rate: $" + hourlyRate + " \nBonus amount: $" + (hourlyRate * 80));
     }
 
     }

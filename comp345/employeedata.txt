@@ -1,7 +1,7 @@
 Jessica
 Johnson
 S
-65451
+65451.00
 Philip
 Allen
 H
@@ -13,7 +13,7 @@ H
 Christopher
 Smith
 S
-39541
+39541.00
 Paula
 Bean
 H
@@ -21,4 +21,4 @@ H
 Nicole
 Boone
 S
-21.54
+41065.00

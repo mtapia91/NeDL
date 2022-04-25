@@ -21,7 +21,7 @@ namespace comp345
     }
     public override string ToString() 
     {
-        return (salaryRate + ". \nMaking their bonus: $" + (salaryRate * .1));
+        return ("Salary amount: $" + salaryRate + " \nBonus amount: $" + (salaryRate * .1));
     }
 
     }

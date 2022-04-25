@@ -48,7 +48,7 @@ namespace HelloWorld
             } 
             while (!userChoice);
             
-            //  TODO: If the option is L or 1 then load the text file (names.txt) into the array (nameArray)
+            //  TODO: If the option is L or l then load the text file (names.txt) into the array (nameArray)
             if (userChoiceString=="L" || userChoiceString=="l")
             {
                 int index = 0;  //index for my array
@@ -114,9 +114,7 @@ namespace HelloWorld
 
                         Console.WriteLine(nameArray[index]);
                     }
-                }
-
-               
+                }              
             }
 
             //  TODO: Else if the option is an R or r then read a name from the array (if it's there)
@@ -129,26 +127,7 @@ namespace HelloWorld
                 }
             }
 
-            //  TODO: Else if the option is a U or u then update a name in the array (if it's there)
 
-            else if (userChoiceString=="U" || userChoiceString=="u")
-            {
-                Console.WriteLine("In the U/u area");
-            }
-
-            //  TODO: Else if the option is a D or d then delete the name in the array (if it's there)
-
-            else if (userChoiceString=="D" || userChoiceString=="d")
-            {
-                Console.WriteLine("In the D/d area");
-            }
-
-            // TODO: Else is a Q or q then the program ends
-
-            else
-            {
-                Console.WriteLine("Good-bye!");
-            }
         } while (!(userChoiceString=="Q") && !(userChoiceString=="q"));
     } // ends main
   } // ends program 
