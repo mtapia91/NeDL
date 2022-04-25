@@ -12,14 +12,7 @@ namespace comp345
             userChoice = false;
 
             Employee[] employeeBonusArray=new Employee[50];  // array of employee objs are declared and instantiated
-           
-            for (int index = 0; index < employeeBonusArray.Length; index++) //start to Read command
-            {
-                if (!(employeeBonusArray[index]==null))
-                {
-                    Console.WriteLine (employeeBonusArray[index]);
-                }
-            }
+    
             do
             {
                 //  TODO: Get a valid input
@@ -27,7 +20,7 @@ namespace comp345
                 {
                     //  TODO: Provide the user a menu of options
 
-                    Console.WriteLine("Choose your poison: ");
+                    Console.WriteLine("Please select an option listed below: ");
                     Console.WriteLine("L: Load the data file into an array. ");
                     Console.WriteLine("S: Store the array to your data file. ");
                     Console.WriteLine("C: Add a name to the array. ");
@@ -72,7 +65,7 @@ namespace comp345
                             Console.WriteLine("");
                     }
                 }
-                 //  TODO: Else if the option is an S or s then store the array of strings into the text file
+        //  TODO: Else if the option is an S or s then store the array of strings into the text file
 
                 else if (userChoiceString=="S" || userChoiceString=="s")
                 {
@@ -80,7 +73,7 @@ namespace comp345
                     {
                         File.Delete("employeedata.txt");
                     }
-                    Console.Write("Changes to your array have been updated to your text file. ");
+                    Console.Write("Changes have been applied to your file. ");
                     
                     using (StreamWriter fileStr = File.CreateText("employeedata.txt"))
                     {              
@@ -90,16 +83,16 @@ namespace comp345
                     }
                     using (StreamReader sr = File.OpenText("employeedata.txt"))
                     {
-                        string s = "";
+                        string blank = "";
                         int index = 0;
-                        while ((s = sr.ReadLine()) != null)
+                        while ((blank = sr.ReadLine()) != null)
                             {
-                                employeeBonusArray[index]= s;
+                                employeeBonusArray[index] = blank;
                                 index++;
                             }
-                    }             
+                    }               
                 }
-                 //  TODO: Else if the option is an R or r then read a name from the array (if it's there)
+        //  TODO: Else if the option is an R or r then read a name from the array (if it's there)
 
                 else if (userChoiceString=="R" || userChoiceString=="r")
                 {
@@ -108,7 +101,10 @@ namespace comp345
                         Console.WriteLine(employeeBonusArray[index]);
                     }
                 }
-            } while (!(userChoiceString=="Q") && !(userChoiceString=="q"));
+            }
+            while (!(userChoiceString=="Q") && !(userChoiceString=="q"));
+            Console.WriteLine ("Goodbye");
+                
         }
     }
 }
