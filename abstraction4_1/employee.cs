@@ -12,7 +12,7 @@ namespace abstraction4_1
         public string employeeType  //employee type property
             {get; set;}
 
-        public Employee () // setting default constructor
+        public Employee () // setting default constructor w/ no parameters passing through
         {
             firstName = "";
             lastName = "";
@@ -28,7 +28,7 @@ namespace abstraction4_1
         
         public override String ToString() 
     {
-        return ("Employee name: " + firstName +" "+ lastName + " \nHourly/Salary? " + " " + employeeType);
+        return ("\nEmployee name: " + firstName +" "+ lastName + " \nHourly/Salary?: " + " " + employeeType);
     }
     }
 }

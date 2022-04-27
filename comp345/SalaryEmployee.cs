@@ -11,7 +11,7 @@ namespace comp345
     {
         salaryRate = newSalaryRate; 
     }
-    public double setSalaryRate() //prop 1
+    public double getSalaryRate() //prop 1
     {
         return salaryRate;
     }

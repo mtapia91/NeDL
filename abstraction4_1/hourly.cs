@@ -18,7 +18,11 @@ namespace abstraction4_1
     }
         public override double GetBonus()
         {
-            return hourlyRate * 80;
+            return Math.Round(hourlyRate * 80, 2); //rounds to second decimal
+        }
+        public override string ToString()
+        {
+            return base.ToString() + " \nHourly rate: $" + hourlyRate + "\nBonus: $" + GetBonus() + "\n";
         }
     }
 }

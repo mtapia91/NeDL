@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\abstraction4_1.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\abstraction4_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\abstraction4_1.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\abstraction4_1.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\abstraction4_1.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\bin\Debug\net6.0\abstraction4_1.exe
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\bin\Debug\net6.0\abstraction4_1.deps.json
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\bin\Debug\net6.0\abstraction4_1.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\bin\Debug\net6.0\abstraction4_1.dll
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\bin\Debug\net6.0\ref\abstraction4_1.dll
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\bin\Debug\net6.0\abstraction4_1.pdb
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\abstraction4_1.dll
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\ref\abstraction4_1.dll
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\abstraction4_1.pdb
+C:\Users\MTapia\Desktop\NeDL\abstraction4_1\obj\Debug\net6.0\abstraction4_1.genruntimeconfig.cache
