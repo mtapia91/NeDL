@@ -3,7 +3,7 @@ using System.Collections.Generic; //needed for lists
 
 namespace interfaces4_2
 {
-    class Program
+    class Program                           //NEXT: load info from txt file to list
     {
         static void Main(string[] args)
         {
