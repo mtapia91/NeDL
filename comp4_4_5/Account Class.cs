@@ -2,7 +2,7 @@
 
 namespace comp4_4_5
 {
-    class CustomerAccount //: IWithdrawal, IDeposit      // make base class abstract || TODO inherit interfaces
+    abstract class Account //: IWithdrawal, IDeposit      // make base class abstract || TODO inherit interfaces
     {
 
         public string accountHolderName     //  name get/set
@@ -17,8 +17,14 @@ namespace comp4_4_5
         public double accountBalance        // current bal get/set
         { get; set; }
 
-        //public double depositAmount;
-        public CustomerAccount()       // constructor w/o parameters
+        public double depositAmount
+        { get; set; }
+
+        public double withdrawalAmount
+        { get; set; }
+
+        //public double depositAmount;  TODO revisit whatever this was
+        public Account()        // constructor w/o parameters
         {
             accountHolderName = "";
             accountType = "";
@@ -26,24 +32,21 @@ namespace comp4_4_5
             accountBalance = 0.0;
         }
 
-        public CustomerAccount (string newAccountHolderName, string newAccountType, string newAccountNumber, double newAccountBalance)        // constructor w/ parameters
-                {
-                    accountHolderName = newAccountHolderName;
-                    accountNumber = newAccountNumber;
-                    accountType = newAccountType;
-                    accountBalance = newAccountBalance;
-                }
-            /*====================================================================
-
-                            WILL ADD THESE INTERFACE METHODS AT SOMEPOINT
-
-            ======================================================================
-
-            public override double Deposit()        // TODO apply methods from IDeposit interface
-                    {
-                        return newDepositAmount;
-                    }
-                    public void Withdrawal(double newWithdrawal);       // TODO apply methods from IWithdrawal interface */
+        public Account (string newAccountHolderName, string newAccountType, string newAccountNumber, double newAccountBalance)        // constructor w/ parameters
+        {
+            accountHolderName = newAccountHolderName;
+            accountNumber = newAccountNumber;
+            accountType = newAccountType;
+            accountBalance = newAccountBalance;
+        }
+        public override Deposit()        // TODO apply methods from IDeposit interface
+        {
+            return newDepositAmount;
+        }
+        public void Withdrawal(newWithdrawal);       // TODO apply methods from IWithdrawal interface
+        {
+            return newWithdrawal;
+        }
 
         public override string ToString()
         {
@@ -52,3 +55,10 @@ namespace comp4_4_5
 
     }       //end class
 }       //end namespace
+
+
+            /*====================================================================
+
+                            WILL ADD THIS AT SOMEPOINT
+
+            ======================================================================

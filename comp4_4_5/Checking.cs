@@ -2,17 +2,23 @@
 
 namespace comp4_4_5
 {
-    class Checking: CustomerAccount        // inherit parent class
+    class Checking: Account        // inherit parent class
 
     {
         public double checkingFee  // checking fee property
         { get; set; }
 
-        //TODO constructor w/o parameters
+        public Checking (): base ()     //TODO constructor w/o parameters
+        {
+            checkingFee = 0;
+        }
+                                            //======vvv===== TODO constructor w/ parameters ======vvv=====\\
+        public Checking (string newAccountHolderName, string newAccountType, string newAccountNumber, double newAccountBalance, double newCheckingFee): base (newAccountHolderName, newAccountType, newAccountNumber, newAccountBalance)
+        {
+            checkingFee = newCheckingFee;
+        }       
 
-        //TODO constructor w/ parameters
-
-        //TODO method to calculate checking annual fee
+                //TODO method to calculate checking annual fee
 
         //TODO create withdrawal method that can be up to, but no exceed, 50% of acct bal
 

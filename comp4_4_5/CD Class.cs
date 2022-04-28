@@ -3,7 +3,7 @@
 namespace comp4_4_5
 {
 
-    class CD : CustomerAccount      //TODO inherit parent class
+    class CD : Account      //TODO inherit parent class
     {
         public double APY        // set APY property
         { get; set; }
@@ -11,7 +11,7 @@ namespace comp4_4_5
         public double penaltyWD     // set WD penalty property
         { get; set; }
 
-        //public CustomerAccount         TODO constructor w/o parameters
+        public Account         TODO constructor w/o parameters
 
         //TODO constructor w/ parameters
 

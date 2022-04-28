@@ -3,12 +3,12 @@
 namespace comp4_4_5
 {
 
-    class Savings : CustomerAccount      //TODO inherit parent class
+    class Savings : Account      //TODO inherit parent class
     {
         public double savingsAPY        // apy property
         { get; set; }
 
-        //TODO constructor w/o parameters
+        public Savings (double savingsAPY)//TODO constructor w/o parameters
 
         //TODO constructor w/ parameters
 

@@ -2,5 +2,5 @@
 
 interface IWithdrawal      //TODO establish withdrawal interface
 {
-    void Withdrawal(double newWithdrawal);        //TODO declare undefined withdrawal method
+    void Withdrawal(double newWithdrawal);        // declare defined withdrawal method
 }
