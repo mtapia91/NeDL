@@ -1,28 +1,32 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace comp4_4_5
 {
-    class Checking: Account        // inherit parent class
-
+    class Checking: Account         // inherit parent class
     {
-        public double checkingFee  // checking fee property
+
+        public static double monthlyCheckingFee         // annual checking fee property
         { get; set; }
 
-        public Checking (): base ()     //TODO constructor w/o parameters
+        public Checking() : base ()     // constructor w/o parameters
         {
-            checkingFee = 0;
+            monthlyCheckingFee = 0;
         }
-                                            //======vvv===== TODO constructor w/ parameters ======vvv=====\\
-        public Checking (string newAccountHolderName, string newAccountType, string newAccountNumber, double newAccountBalance, double newCheckingFee): base (newAccountHolderName, newAccountType, newAccountNumber, newAccountBalance)
+                        //======vvv===== constructor w/ parameters ======vvv=====\\
+        public Checking (string newAccountHolderName, string newAccountType, string newAccountNumber, double newAccountBalance, double newMonthlyCheckingFee): base (newAccountHolderName, newAccountType, newAccountNumber, newAccountBalance)
         {
-            checkingFee = newCheckingFee;
+            monthlyCheckingFee = newMonthlyCheckingFee;
         }       
+        public override void makeWithdraw(double withdrawalAmount)
+        {
+            accountBalance = accountBalance - withdrawalAmount;
+        }
+        //public double balanceWithFeeDeduction = (monthlyCheckingFee - balance);         // method to calculate checking fee
 
-                //TODO method to calculate checking annual fee
-
-        //TODO create withdrawal method that can be up to, but no exceed, 50% of acct bal
-
-        //TODO base ToString + check class ToString
-
+        public override string ToString()      // base ToString + check class ToString
+        {
+            return base.ToString() + "\nMonthly checking fee: $: " + monthlyCheckingFee;  //"\nAccount balance (with fee deducted): $" + balanceWithFeeDeduction
+        }        
     }       //end class
 }       //end namespace

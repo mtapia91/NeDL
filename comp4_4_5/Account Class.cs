@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace comp4_4_5
 {
-    abstract class Account //: IWithdrawal, IDeposit      // make base class abstract || TODO inherit interfaces
+    abstract class Account      // make base class abstract \n TODO inherit interface
     {
-
+        public double accountBalance
+        { get; set; }
         public string accountHolderName     //  name get/set
         { get; set; }
 
@@ -14,51 +16,43 @@ namespace comp4_4_5
         public string accountType        //  acct type get/set
         { get; set; }
     
-        public double accountBalance        // current bal get/set
-        { get; set; }
-
-        public double depositAmount
-        { get; set; }
-
-        public double withdrawalAmount
-        { get; set; }
-
-        //public double depositAmount;  TODO revisit whatever this was
         public Account()        // constructor w/o parameters
         {
             accountHolderName = "";
             accountType = "";
+            accountBalance = 0;
             accountNumber = "";           
-            accountBalance = 0.0;
         }
 
         public Account (string newAccountHolderName, string newAccountType, string newAccountNumber, double newAccountBalance)        // constructor w/ parameters
         {
             accountHolderName = newAccountHolderName;
-            accountNumber = newAccountNumber;
             accountType = newAccountType;
+            accountNumber = newAccountNumber;
             accountBalance = newAccountBalance;
         }
-        public override Deposit()        // TODO apply methods from IDeposit interface
+
+        public void makeDeposit(double depositAmount)
         {
-            return newDepositAmount;
+            accountBalance = accountBalance + depositAmount;
         }
-        public void Withdrawal(newWithdrawal);       // TODO apply methods from IWithdrawal interface
-        {
-            return newWithdrawal;
-        }
+
+        public abstract void makeWithdraw(double withdrawalAmount);
 
         public override string ToString()
         {
-            return "Account holder: " + accountHolderName + "\nAccount type: " + accountType + "\nAccount number: " + accountNumber + "\nAccount balance: $" + accountBalance + "\n";
+            return "\nAccount holder: " + accountHolderName + "\nAccount type: " + accountType + "\nAccount number: " + accountNumber + "\nAccount balance: $" + accountBalance;
         }
 
     }       //end class
 }       //end namespace
 
 
-            /*====================================================================
 
-                            WILL ADD THIS AT SOMEPOINT
 
-            ======================================================================
+
+                                                                    /*  public double depositAmount     //unsure to keep this
+                                                                        { get; set; }
+
+                                                                        public double withdrawalAmount      //unsure to keep this
+                                                                        { get; set; } */

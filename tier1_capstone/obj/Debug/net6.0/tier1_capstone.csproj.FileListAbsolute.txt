@@ -1,0 +1,15 @@
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\tier1_capstone.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\tier1_capstone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\tier1_capstone.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\tier1_capstone.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\tier1_capstone.csproj.CoreCompileInputs.cache
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\bin\Debug\net6.0\tier1_capstone.exe
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\bin\Debug\net6.0\tier1_capstone.deps.json
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\bin\Debug\net6.0\tier1_capstone.runtimeconfig.json
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\bin\Debug\net6.0\tier1_capstone.dll
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\bin\Debug\net6.0\ref\tier1_capstone.dll
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\bin\Debug\net6.0\tier1_capstone.pdb
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\tier1_capstone.dll
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\ref\tier1_capstone.dll
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\tier1_capstone.pdb
+C:\Users\MTapia\Desktop\NeDL\tier1_capstone\obj\Debug\net6.0\tier1_capstone.genruntimeconfig.cache

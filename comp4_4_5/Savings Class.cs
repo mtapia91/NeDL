@@ -1,22 +1,39 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace comp4_4_5
 {
 
-    class Savings : Account      //TODO inherit parent class
+    class Savings : Account, ICalculateInterest2      //TODO inherit parent class
     {
-        public double savingsAPY        // apy property
+        public double annualSavingsFee        // annual fee property  //supposed to be an interest %
         { get; set; }
 
-        public Savings (double savingsAPY)//TODO constructor w/o parameters
+        public Savings (): base ()        //TODO constructor w/o parameters
+        {
+            annualSavingsFee = 0.0;
+        }
+                                    // ====vvv==== constructor w/ parameters ====vvv==== \\
+        public Savings (string newAccountHolderName, string newAccountType, string newAccountNumber, double newBalance, double newAnnualSavingsFee): base (newAccountHolderName, newAccountType, newAccountNumber, newBalance)
+        {
+            annualSavingsFee = newAnnualSavingsFee;
+        }
+        public override void makeWithdraw(double withdrawalAmount)
+        {
+            accountBalance = accountBalance - withdrawalAmount;
+        }
 
-        //TODO constructor w/ parameters
+        public double CalculateInterest ()      // this is implementing ICalculateInterest interface
+        {
+           return  annualSavingsFee * accountBalance;
+        }
 
-        //TODO create withdrawal method that leaves account balance greater than withdrawal amount
+        public override string ToString()      //TODO base ToString + check class ToString
+        {
+            return base.ToString() + "\nSavings annual fee: $" + annualSavingsFee + "\nAnnual interest: " + CalculateInterest;
+        }
 
-        //TODO create method to calculate savings apy rate
-
-        //TODO base ToString + savings class ToString
+                //TODO base ToString + savings class ToString
 
     }       // end class
 }       //end namespace
