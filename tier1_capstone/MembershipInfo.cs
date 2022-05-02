@@ -16,7 +16,6 @@ namespace tier1_capstone
         { get; set; }
         public double totalMonthlyPurchases
         { get; set; }
-
         public MembershipInfo()        //default constructor
         {
             membershipID = 0;
@@ -26,7 +25,6 @@ namespace tier1_capstone
             annualCost = 0;
             totalMonthlyPurchases = 0;
         }
-
         public MembershipInfo(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases)       //another constructor
         {
             membershipID = newMembershipID;

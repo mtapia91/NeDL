@@ -15,16 +15,16 @@ namespace tier1_capstone
         {
             regularMembership = newRegularMembership;
         }
-        /* public abstract double Purchase();      //abstract method that all child classes will implement
+    /*  public abstract double Purchase();   //abstract method that all child classes will implement
         {                                           //-must include member#
             return membershipID                     //-purchase amt. (must be > 0)
                                                     //-IF member# exists, current amt. of purch. is increased by the purch. amt.
         }
-
-        public abstract double Return();        //abstract method that all child classes will implement
+        public abstract double Return();      //abstract method that all child classes will implement
                                                     //-must include member#
                                                     //-return amt. (must be > 0)
-                                                    //-IF member# exists, current amt. of purch. is decreased by the purch. amt. */
+                                                    //-IF member# exists, current amt. of purch. is decreased by the purch. amt. 
+        */
 
         public override string ToString()
         {
