@@ -8,7 +8,7 @@ namespace tier1_capstone
             bool userChoice;
             char userChoiceChar;
             List<MembershipInfo> membershipInfoList = new List<MembershipInfo>(); 
-            do
+            do      //admin or member menu?
             {
                 //  TODO: Provide the user a menu of options
 
@@ -38,7 +38,40 @@ namespace tier1_capstone
                     Console.WriteLine("Please enter a valid option.");
                 }
             } 
-                while (!userChoice);      
+                while (!userChoice);
+
+
+            do      //admin menu
+            {
+                //  TODO: Provide the user a menu of options
+
+                Console.WriteLine("Are you a ValueCo account administrator or ValueCo member? ");
+                Console.WriteLine("L: Load the data file into an array. ");
+                Console.WriteLine("S: Store the array to your data file. ");
+                Console.WriteLine("C: Add a name to the array. ");
+                Console.WriteLine("R: Read a name from the array. ");
+                Console.WriteLine("U: Update a name in the array. ");
+                Console.WriteLine("D: Delete a name from the array. ");
+                Console.WriteLine("Q: Quit the program. ");
+
+                //  TODO: Get a user option (valid means its on the menu)
+
+                userChoiceChar = Convert.ToChar(Console.ReadLine());
+
+                userChoice = (userChoiceChar=='L' || userChoiceChar=='l' ||
+                                userChoiceChar=='S' || userChoiceChar=='s' ||
+                                userChoiceChar=='C' || userChoiceChar=='c' ||
+                                userChoiceChar=='R' || userChoiceChar=='r' ||
+                                userChoiceChar=='U' || userChoiceChar=='u' ||
+                                userChoiceChar=='D' || userChoiceChar=='d' ||
+                                userChoiceChar=='Q' || userChoiceChar=='q');
+
+                if (!userChoice)
+                {
+                    Console.WriteLine("Please enter a valid option.");
+                }
+            } 
+                while (!userChoice)
         }
     }
 }
