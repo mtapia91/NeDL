@@ -2,33 +2,32 @@
 
 namespace tier1_capstone
 {
-    class Regular: MembershipInfo      //standard class
+    class Regular: BaseMembership, ISpecial      //standard class + inheritance + interface
     {
-        public string regularMembership      //get; set; all properties
+        public double regularCashBackReward      //get; set; regular cash back property
         { get; set; }
 
-        public Regular()        //default constructor
+        public Regular() :base ()        //default constructor
         {
-            regularMembership = "";
+            regularCashBackReward = 0.0;
         }
-        public Regular(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases, string newRegularMembership): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalMonthlyPurchases)       //another constructor
+        public Regular(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalCurrentBalance, double newRegularCashBackReward, double newPurchaseTotal): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalCurrentBalance)       //another constructor
         {
-            regularMembership = newRegularMembership;
+            regularCashBackReward = newRegularCashBackReward;
         }
-    /*  public abstract double Purchase();   //abstract method that all child classes will implement
-        {                                           //-must include member#
-            return membershipID                     //-purchase amt. (must be > 0)
-                                                    //-IF member# exists, current amt. of purch. is increased by the purch. amt.
+        public override double CashBack()       //abstract method from interface
+        {
+            double totalCashBack = currentBalance * regularCashBackReward;
+            return totalCashBack;
         }
-        public abstract double Return();      //abstract method that all child classes will implement
-                                                    //-must include member#
-                                                    //-return amt. (must be > 0)
-                                                    //-IF member# exists, current amt. of purch. is decreased by the purch. amt. 
-        */
+        public double Special()        //interface method
+        {
+            return annualCost * .25;
+        }
 
-        public override string ToString()
+        public override string ToString()       //class ToString
         {
-            return base.ToString + "\nTotal monthly purchase: $" + totalMonthlyPurchases;
+            return base.ToString + "\nCashback Rewards Percentage: " + regularCashBackReward + "\nSpecial Offer: " + Special();
         }
     }
 }

@@ -2,32 +2,38 @@
 
 namespace tier1_capstone
 {
-    class NonProfit: MembershipInfo      //standard class
+    class NonProfit: BaseMembership      //standard class
     {
-        public string nonProfitMembership      //get; set; all properties
+        public double nonProfitCashBack      //get; set; all properties
         { get; set; }
-
-        public NonProfit()        //default constructor
+        public bool militaryOrEducation
+        { get; set; }
+        public NonProfit() : base ()        //default constructor
         {
-            nonProfitMembership = "";
+            nonProfitCashBack = 0.0;
+            militaryOrEducation = false;
         }
-        public NonProfit(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases, string newNonProfitMembership): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalMonthlyPurchases)       //another constructor
+        public NonProfit(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases, double newNonProfitCashBack, bool newMilitaryOrEducation): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalMonthlyPurchases)       //another constructor
         {
-            nonProfitMembership = newNonProfitMembership;
+            nonProfitCashBack = newNonProfitCashBack;
+            militaryOrEducation = newMilitaryOrEducation;
         }
-    /*  public virtual void Purchase();      //abstract method that all child classes will implement
-        {                                           //-must include member#
-            return membershipID                     //-purchase amt. (must be > 0)
-                                                    //-IF member# exists, current amt. of purch. is increased by the purch. amt.
-        }
-
-        public virtual void Return();        //abstract method that all child classes will implement
-                                                    //-must include member#
-                                                    //-return amt. (must be > 0)
-                                                    //-IF member# exists, current amt. of purch. is decreased by the purch. amt. */
-              public override string ToString()
+        public override double CashBack()
         {
-            return base.ToString + "\n" + "\n";
+            double CashBack;
+            if (militaryOrEducation  == true)
+            {
+                CashBack = (nonProfitCashBack * .08);
+            }
+            else
+            {
+                CashBack = (nonProfitCashBack * .04);
+            }
+            return CashBack;
+        }
+        public override string ToString()
+        {
+            return base.ToString() + " | Cash Back Rewards Percentage: "  + nonProfitCashBack + " | Miliary or Educational Organization: " + militaryOrEducation;
         }
     }
 }

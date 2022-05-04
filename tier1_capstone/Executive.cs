@@ -2,32 +2,42 @@
 
 namespace tier1_capstone
 {
-    class Executive: MembershipInfo      //standard class
+    class Executive: BaseMembership, ISpecial      //standard class + inheritance + interface
     {
-        public string executiveMembership      //get; set; all properties
+        public double executiveCashBackReward1      //get; set; both cash back properties
         { get; set; }
-
-        public Executive()        //default constructor
+        public double executiveCashBackReward2
+        { get; set; }
+        public Executive () : base ()       //default constructor
         {
-            executiveMembership = "";
+         executiveCashBackReward1 = 0.0;
+         executiveCashBackReward2 = 0.0;
         }
-        public Executive(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases, string newExecutiveMembership): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalMonthlyPurchases)       //another constructor
+        public Executive(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases, double newExecutiveCashBackReward1, double newExecutiveCashBackReward2): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalMonthlyPurchases)       //another constructor
         {
-            executiveMembership = newExecutiveMembership;
+            executiveCashBackReward1 = newExecutiveCashBackReward1;
+            executiveCashBackReward2 = newExecutiveCashBackReward2;
         }
-    /*  public virtual void Purchase();      //abstract method that all child classes will implement
-        {                                           //-must include member#
-            return membershipID                     //-purchase amt. (must be > 0)
-                                                    //-IF member# exists, current amt. of purch. is increased by the purch. amt.
-        }
-
-        public virtual void Return();        //abstract method that all child classes will implement
-                                                    //-must include member#
-                                                    //-return amt. (must be > 0)
-                                                    //-IF member# exists, current amt. of purch. is decreased by the purch. amt. */
-              public override string ToString()
+        public override double CashBack()       //abstract method 
         {
-            return base.ToString + "\n" + "\n";
+            double totalCashBack;
+            if (currentBalance <= 1000)
+            {
+                totalCashBack = currentBalance * executiveCashBackReward1;
+            }
+            else 
+            {
+                totalCashBack = currentBalance * executiveCashBackReward2;
+            }
+            return totalCashBack;
+        }
+        public double Special()     //interface method
+        {
+            return annualCost * .50;
+        }
+        public override string ToString()
+        {
+            return base.ToString + "\nCash back reward percentage for option 1: " + executiveCashBackReward1 + "\nCash back reward percentage for option 2: " + executiveCashBackReward2 + "\nSpecial offer: " + Special();
         }
     }
 }
