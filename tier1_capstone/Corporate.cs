@@ -11,7 +11,7 @@ namespace tier1_capstone
         {
             corporateCashBack = 0.0;
         }
-        public Corporate(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases, double newCorporateCashBack): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalMonthlyPurchases)       //another constructor
+        public Corporate(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newCurrentBalance, double newCorporateCashBack): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newCurrentBalance)       //another constructor
         {
             corporateCashBack = newCorporateCashBack;
         }
@@ -19,10 +19,10 @@ namespace tier1_capstone
         {
             double totalCashBack = currentBalance * corporateCashBack;
             return totalCashBack;
-        }
+        } 
         public override string ToString()
         {
-            return base.ToString + "\nCorporate Cash Back Amount: " + corporateCashBack;
+            return base.ToString() + "\nCorporate Cash Back Amount: " + corporateCashBack + "\n";
         }
         
     }

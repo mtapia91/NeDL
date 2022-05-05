@@ -13,7 +13,7 @@ namespace tier1_capstone
             nonProfitCashBack = 0.0;
             militaryOrEducation = false;
         }
-        public NonProfit(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases, double newNonProfitCashBack, bool newMilitaryOrEducation): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalMonthlyPurchases)       //another constructor
+        public NonProfit(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newCurrentBalance , double newNonProfitCashBack, bool newMilitaryOrEducation): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newCurrentBalance)       //another constructor
         {
             nonProfitCashBack = newNonProfitCashBack;
             militaryOrEducation = newMilitaryOrEducation;
@@ -23,17 +23,17 @@ namespace tier1_capstone
             double CashBack;
             if (militaryOrEducation  == true)
             {
-                CashBack = (nonProfitCashBack * .08);
+                CashBack = (nonProfitCashBack * 2 * currentBalance);
             }
             else
             {
-                CashBack = (nonProfitCashBack * .04);
+                CashBack = (nonProfitCashBack * currentBalance);
             }
             return CashBack;
         }
         public override string ToString()
         {
-            return base.ToString() + " | Cash Back Rewards Percentage: "  + nonProfitCashBack + " | Miliary or Educational Organization: " + militaryOrEducation;
+            return base.ToString() + "\nCash Back Rewards Percentage: "  + nonProfitCashBack + "\nMiliary or Educational?: " + militaryOrEducation + "\n";
         }
     }
 }

@@ -46,9 +46,9 @@ namespace tier1_capstone
         }
         public abstract double CashBack();      //abstract method
 
-        public override string ToString()
+        public override string ToString()       //ToString
         {
-            return "Member ID: " + membershipID + "\nMember name: " + memberName + "\nEmail address : " + emailAddress + "\n Membership type: " + membershipType + "\nAnnual cost: $" + annualCost + "\nCurrent monthly purchase balance: $" + currentBalance;
+            return "Member ID: " + membershipID + "\nMember name: " + memberName + "\nEmail address : " + emailAddress + "\nMembership type: " + membershipType + "\nAnnual cost: $" + annualCost + "\nCurrent monthly purchase balance: $" + currentBalance;
         }
     }
 }

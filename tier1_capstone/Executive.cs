@@ -13,7 +13,7 @@ namespace tier1_capstone
          executiveCashBackReward1 = 0.0;
          executiveCashBackReward2 = 0.0;
         }
-        public Executive(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newTotalMonthlyPurchases, double newExecutiveCashBackReward1, double newExecutiveCashBackReward2): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newTotalMonthlyPurchases)       //another constructor
+        public Executive(double newMembershipID, string newMemberName, string newEmailAddress, string newMembershipType, double newAnnualCost, double newCurrentBalance, double newExecutiveCashBackReward1, double newExecutiveCashBackReward2): base(newMembershipID, newMemberName, newEmailAddress, newMembershipType, newAnnualCost, newCurrentBalance)       //another constructor
         {
             executiveCashBackReward1 = newExecutiveCashBackReward1;
             executiveCashBackReward2 = newExecutiveCashBackReward2;
@@ -37,7 +37,7 @@ namespace tier1_capstone
         }
         public override string ToString()
         {
-            return base.ToString + "\nCash back reward percentage for option 1: " + executiveCashBackReward1 + "\nCash back reward percentage for option 2: " + executiveCashBackReward2 + "\nSpecial offer: " + Special();
+            return base.ToString() + "\nCash back reward percentage for option 1: " + executiveCashBackReward1 + "\nCash back reward percentage for option 2: " + executiveCashBackReward2 + "\nSpecial offer: " + Special() + "\n";
         }
     }
 }
