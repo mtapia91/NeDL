@@ -22,7 +22,7 @@ namespace tier1_capstone
         } 
         public override string ToString()
         {
-            return base.ToString() + "\nCorporate Cash Back Amount: " + corporateCashBack + "\n";
+            return base.ToString() + "\nCorporate Cash Back Percentage (monthly): " + corporateCashBack + "\n";
         }
         
     }

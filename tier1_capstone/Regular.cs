@@ -27,7 +27,7 @@ namespace tier1_capstone
 
         public override string ToString()       //base.ToString + class ToString
         {
-            return base.ToString() + "\nCashback Rewards Percentage: " + regularCashBackReward + "\nSpecial Offer: " + Special() + "\n";
+            return base.ToString() + "\nCashback Rewards Percentage (monthly): " + regularCashBackReward + "\nSpecial Offer: " + Special() + "\n";
         }
     }
 }

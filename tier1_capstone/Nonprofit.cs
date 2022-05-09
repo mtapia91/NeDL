@@ -33,7 +33,7 @@ namespace tier1_capstone
         }
         public override string ToString()
         {
-            return base.ToString() + "\nCash Back Rewards Percentage: "  + nonProfitCashBack + "\nMiliary or Educational?: " + militaryOrEducation + "\n";
+            return base.ToString() + "\nCash Back Rewards Percentage (monthly): "  + nonProfitCashBack + "\nMiliary or Educational?: " + militaryOrEducation + "\n";
         }
     }
 }

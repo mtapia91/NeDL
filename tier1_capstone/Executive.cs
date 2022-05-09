@@ -37,7 +37,7 @@ namespace tier1_capstone
         }
         public override string ToString()
         {
-            return base.ToString() + "\nCash back reward percentage for option 1: " + executiveCashBackReward1 + "\nCash back reward percentage for option 2: " + executiveCashBackReward2 + "\nSpecial offer: " + Special() + "\n";
+            return base.ToString() + "\nCash Back Reward Percentage (monthly) Option 1 (<$1,000): " + executiveCashBackReward1 + "\nCash Back Reward Percentage (monthly) Option 2 (>$1,000): " + executiveCashBackReward2 + "\nSpecial offer: " + Special() + "\n";
         }
     }
 }
