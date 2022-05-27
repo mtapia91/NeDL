@@ -7,6 +7,7 @@ namespace comp4_4_5
     {
         public double accountBalance
         { get; set; }
+        
         public string accountHolderName     //  name get/set
         { get; set; }
 

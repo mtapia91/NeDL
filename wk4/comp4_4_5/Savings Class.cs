@@ -13,8 +13,8 @@ namespace comp4_4_5
         {
             annualSavingsFee = 0.0;
         }
-                                    // ====vvv==== constructor w/ parameters ====vvv==== \\
-        public Savings (string newAccountHolderName, string newAccountType, string newAccountNumber, double newBalance, double newAnnualSavingsFee): base (newAccountHolderName, newAccountType, newAccountNumber, newBalance)
+                                    // ====vvv==== constructor w/ parameters ====vvv==== \\accountBalance
+        public Savings (string newAccountHolderName, string newAccountType, string newAccountNumber, double newAccountBalance, double newAnnualSavingsFee): base (newAccountHolderName, newAccountType, newAccountNumber, newAccountBalance)
         {
             annualSavingsFee = newAnnualSavingsFee;
         }

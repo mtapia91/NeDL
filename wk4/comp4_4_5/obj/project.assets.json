@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.1 - Novice\\comp4_4_5\\comp4_4_5.csproj",
+      "projectUniqueName": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.1 - Novice\\wk4\\comp4_4_5\\comp4_4_5.csproj",
       "projectName": "comp4_4_5",
-      "projectPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.1 - Novice\\comp4_4_5\\comp4_4_5.csproj",
+      "projectPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.1 - Novice\\wk4\\comp4_4_5\\comp4_4_5.csproj",
       "packagesPath": "C:\\Users\\MTapia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.1 - Novice\\comp4_4_5\\obj\\",
+      "outputPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.1 - Novice\\wk4\\comp4_4_5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MTapia\\AppData\\Roaming\\NuGet\\NuGet.Config",
